@@ -1,0 +1,20 @@
+{
+    "count":"cantidad",
+    "next":"siguiente",
+    "previous":"anterior",
+    "results":"resultado",
+    "opening_crawl":"apertura_rastreo",
+    "characters":"personajes",
+    "created":"creado",
+    "director":"director",
+    "episode_id":"episodio_id",
+    "title":"titulo",
+    "producer":"productor",
+    "release_date":"fecha_lanzamiento",
+    "species":"especies",
+    "starships":"naves_espaciales",
+    "vehicles":"vehiculos",
+    "planets":"planetas",
+    "url":"url",
+    "edited":"editado"
+}
