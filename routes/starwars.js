@@ -10,10 +10,11 @@ const router = Router();
 router.get("/films", async function (req, res) {
 
    const { lang = 'en' }  = req.headers;
+   const { title = '' } = req.query;
 
    if(!ACEPTED_LANGUAGES.includes(lang)) lang = 'en';
   
-   const { data } = await axios.get(`${process.env.SWAPI_API_BASE}/films`);
+   const { data } = await axios.get(`${process.env.SWAPI_API_BASE}/films?search=${title}`);
 
    const newData = translateProps.filmProps(data,lang)
 

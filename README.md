@@ -41,6 +41,10 @@ Es una aplicacion serverless que tiene dos funcionalidades:
   ```
   GET https://7hv7fthtvl.execute-api.us-east-2.amazonaws.com/dev/starwars/films
   ```
+   - Buscar peliculas por titulo
+  ```
+  GET https://7hv7fthtvl.execute-api.us-east-2.amazonaws.com/dev/starwars/films?title=Hope
+  ```
    - Obtener Informacion sobre un personaje de starwars
   ```
   GET https://7hv7fthtvl.execute-api.us-east-2.amazonaws.com/dev/starwars/person/5
